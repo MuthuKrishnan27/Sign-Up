@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   
     function redirectToSignup() {
-      window.location.href = '/Sign_Up/signup.html';
+      window.location.href = './signup.html';
     }
   
     function showUserDetails(user) {

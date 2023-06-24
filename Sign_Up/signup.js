@@ -51,7 +51,7 @@ myform.addEventListener('submit',(e) => {
   });
 
   function redirectToProfile() {
-    window.location.href = '/Sign_Up/profile.html';
+    window.location.href = './profile.html';
   }
 
 // Generating access token
