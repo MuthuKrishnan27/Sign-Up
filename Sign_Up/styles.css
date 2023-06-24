@@ -1,0 +1,48 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  #signup-container, #profile-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #message {
+    margin-bottom: 10px;
+    color: green;
+  }
+  
+  #error {
+    margin-bottom: 10px;
+    color: red;
+  }
+  
+  #signup-form label, #profile-container h1 {
+    margin-bottom: 5px;
+  }
+  
+  #signup-form input, #signup-form button, #logout-btn {
+    margin-bottom: 10px;
+  }
+  
+  #logout-btn {
+    background-color: #ccc;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  

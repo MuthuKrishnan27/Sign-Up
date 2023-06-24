@@ -1,0 +1,61 @@
+body{
+    margin:0;
+    color: white;
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    padding: 8px;
+    border-bottom: 1px solid white;
+}
+.header div{
+    padding: 0px 20px;
+}
+.header div a{
+    font-size:larger;
+    text-decoration: none;
+    color: azure;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+.signup-container{
+    border: 1px solid white;
+    padding: 8px 20px;
+    box-shadow: 10px 5px 5px rgb(207, 203, 203);
+}
+.signup-container > h3{
+    margin:0;
+}
+#myform{
+    display: flex;
+    flex-direction: column;
+}
+#myform > div{
+    margin: 2px;
+    padding: 8px 20px;
+}
+
+.user-details input{
+    width: 100%;
+    height:25px
+}
+#signupBtn{
+    border: 1px solid white;
+    width: 40%;
+    height:30px;
+    border-radius: 5px;
+    background-color: skyblue;
+    font-size: 14px;
+}
+#signupBtn:hover{
+    cursor: pointer;
+    transform: scaleX(1.1);
+    font-size: 16px;
+}
